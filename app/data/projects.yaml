@@ -1,0 +1,21 @@
+projects:
+  chatbots:
+    name: "Chatbot Projects"
+    description: "AI conversation agents for various purposes"
+    status: "active"
+    nodes:
+      - name: "MapBuddy"
+        description: "Geographic information chatbot"
+        status: "in_progress"
+        color: "yellow"
+        subnodes:
+          - name: "Custom Client-Side Actions"
+            status: "blocked"
+            color: "red"
+            next_steps:
+              - name: "Contact Mango Technical Team"
+                status: "pending"
+                color: "green"
+              - name: "Research Caching Strategies"
+                status: "in_progress"
+                color: "yellow"
